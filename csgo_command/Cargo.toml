@@ -1,0 +1,10 @@
+[package]
+name = "csgo_command"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4"
+clipboard = "0.5"
+eframe = "0.23"
+egui = "0.23"
