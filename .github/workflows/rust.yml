@@ -16,6 +16,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: Change directory to csgo_command
+      run: cd "csgo_command"
     - name: Build
       run: cargo build --verbose
     - name: Run tests
