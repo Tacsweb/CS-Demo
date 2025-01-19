@@ -1,0 +1,23 @@
+# Rust
+/target
+/Cargo.lock
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+*.swp
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Backup files
+*~
+*.bak
+*.swp
